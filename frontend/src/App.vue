@@ -1,18 +1,33 @@
 <template>
   <div id="app">
-    <h1>Flask + Vue.js Project Template</h1>
-    <p>Welcome to your scaffolded project.</p>
+    <NavBar />
+    <main class="content">
+      <router-view />
+    </main>
   </div>
 </template>
 
 <script setup>
-// Main App Component
+import NavBar from './components/NavBar.vue'
 </script>
 
-<style scoped>
+<style>
+/* Global styles */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #f8f9fa;
+  font-family: 'Inter', 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+}
 #app {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  margin-top: 60px;
+  min-height: 100vh;
+}
+.content {
+  padding: 20px;
 }
 </style>

@@ -1,22 +1,21 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import path from 'path'
 
-// https://vitejs.dev/config/
+
+// --- GLOBAL CONFIGURATION VARIABLES ---
+const PORT = 5173
+const API_PREFIX = '/api'
+const API_TARGET = 'http://localhost:5000'
+
 export default defineConfig({
   plugins: [vue()],
-  resolve: {
-    alias: {
-      '@': path.resolve(__dirname, './src'),
-    },
-  },
   server: {
-    port: 5173,
+    port: PORT,
     proxy: {
-      '/api/v1': {
-        target: 'http://localhost:5000',
-        changeOrigin: true,
+      [API_PREFIX]: {
+        target: API_TARGET,
       },
     },
   },
 })
+

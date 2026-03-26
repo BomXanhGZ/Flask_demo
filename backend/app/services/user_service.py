@@ -4,7 +4,7 @@ from ..schemas.user_schema import user_schema, users_schema
 from ..extensions import db
 
 
-def get_me(user_id):
+def get_profile(user_id):
     user = User.query.get(user_id)
     if not user:
         return None

@@ -84,3 +84,62 @@
 2026-03-26 13:20:10,084 - werkzeug - WARNING -  * Debugger is active!
 2026-03-26 13:20:10,087 - werkzeug - INFO -  * Debugger PIN: 704-254-663
 2026-03-26 13:20:19,353 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 13:20:19] "GET /api/me HTTP/1.1" 200 -
+2026-03-26 19:15:17,896 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.schemas
+2026-03-26 19:15:17,896 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.tables
+2026-03-26 19:15:17,896 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.types
+2026-03-26 19:15:17,897 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.constraints
+2026-03-26 19:15:17,897 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.defaults
+2026-03-26 19:15:17,897 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.comments
+2026-03-26 19:15:18,181 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-26 19:15:18,182 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-26 19:15:18,183 - werkzeug - INFO -  * Restarting with stat
+2026-03-26 19:15:18,803 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.schemas
+2026-03-26 19:15:18,803 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.tables
+2026-03-26 19:15:18,803 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.types
+2026-03-26 19:15:18,803 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.constraints
+2026-03-26 19:15:18,804 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.defaults
+2026-03-26 19:15:18,804 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.comments
+2026-03-26 19:15:18,854 - werkzeug - WARNING -  * Debugger is active!
+2026-03-26 19:15:18,857 - werkzeug - INFO -  * Debugger PIN: 704-254-663
+2026-03-26 19:15:39,273 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 19:15:39] "[35m[1mPOST /api/register HTTP/1.1[0m" 201 -
+2026-03-26 19:16:39,118 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 19:16:39] "POST /api/login HTTP/1.1" 200 -
+2026-03-26 19:17:00,490 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 19:17:00] "POST /api/login HTTP/1.1" 200 -
+2026-03-26 19:17:23,449 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 19:17:23] "[35m[1mPOST /api/register HTTP/1.1[0m" 201 -
+2026-03-26 19:18:36,886 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 19:18:36] "[35m[1mPOST /api/register HTTP/1.1[0m" 201 -
+2026-03-26 19:19:29,552 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 19:19:29] "[35m[1mPOST /api/register HTTP/1.1[0m" 201 -
+2026-03-26 19:19:44,929 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 19:19:44] "POST /api/login HTTP/1.1" 200 -
+2026-03-26 19:23:37,878 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.schemas
+2026-03-26 19:23:37,879 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.tables
+2026-03-26 19:23:37,879 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.types
+2026-03-26 19:23:37,879 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.constraints
+2026-03-26 19:23:37,879 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.defaults
+2026-03-26 19:23:37,879 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.comments
+2026-03-26 19:23:37,935 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-26 19:23:37,935 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-26 19:23:37,936 - werkzeug - INFO -  * Restarting with stat
+2026-03-26 19:23:38,513 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.schemas
+2026-03-26 19:23:38,513 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.tables
+2026-03-26 19:23:38,513 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.types
+2026-03-26 19:23:38,514 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.constraints
+2026-03-26 19:23:38,514 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.defaults
+2026-03-26 19:23:38,514 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.comments
+2026-03-26 19:23:38,559 - werkzeug - WARNING -  * Debugger is active!
+2026-03-26 19:23:38,562 - werkzeug - INFO -  * Debugger PIN: 704-254-663
+2026-03-26 19:24:17,596 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 19:24:17] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2026-03-26 19:24:22,941 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 19:24:22] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2026-03-26 19:24:31,265 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 19:24:31] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2026-03-26 19:24:34,344 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 19:24:34] "POST /api/login HTTP/1.1" 200 -
+2026-03-26 19:24:34,364 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 19:24:34] "[33mGET /api/profile/undefined HTTP/1.1[0m" 404 -
+2026-03-26 19:24:48,069 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 19:24:48] "[33mGET /api/profile/undefined HTTP/1.1[0m" 404 -
+2026-03-26 19:24:48,809 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 19:24:48] "[33mGET /api/profile/undefined HTTP/1.1[0m" 404 -
+2026-03-26 19:24:49,211 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 19:24:49] "[33mGET /api/profile/undefined HTTP/1.1[0m" 404 -
+2026-03-26 19:24:49,440 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 19:24:49] "[33mGET /api/profile/undefined HTTP/1.1[0m" 404 -
+2026-03-26 19:27:46,408 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 19:27:46] "POST /api/login HTTP/1.1" 200 -
+2026-03-26 19:27:59,276 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 19:27:59] "POST /api/login HTTP/1.1" 200 -
+2026-03-26 19:28:36,971 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 19:28:36] "[31m[1mGET /api/profile HTTP/1.1[0m" 401 -
+2026-03-26 19:30:21,874 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 19:30:21] "[31m[1mGET /api/profile HTTP/1.1[0m" 401 -
+2026-03-26 19:30:44,649 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 19:30:44] "POST /api/login HTTP/1.1" 200 -
+2026-03-26 19:31:14,192 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 19:31:14] "GET /api/profile HTTP/1.1" 200 -
+2026-03-26 19:33:48,922 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 19:33:48] "[33mGET /api/profile/undefined HTTP/1.1[0m" 404 -

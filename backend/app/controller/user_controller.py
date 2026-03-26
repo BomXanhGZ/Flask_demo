@@ -5,11 +5,11 @@ from ..services import user_service
 user_bp = Blueprint('user', __name__)
 
 
-@user_bp.route('/me', methods=['GET'])
+@user_bp.route('/profile', methods=['GET'])
 @jwt_required()
-def get_me():
+def get_profile():
     user_id = get_jwt_identity()
-    user = user_service.get_me(user_id)
+    user = user_service.get_profile(user_id)
     if not user:
         return jsonify({'message': 'User not found'}), 404
     return jsonify(user), 200

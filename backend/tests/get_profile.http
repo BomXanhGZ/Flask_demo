@@ -1,0 +1,6 @@
+@baseUrl = http://127.0.0.1:5000/api
+
+# Copy access_token từ kết quả của login.http dán vào đây
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc3NDUyMTA0NCwianRpIjoiODY5YWEzMDItNTZjZS00ODI3LTljZWMtMDNmODE0MWY5Nzg4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NzQ1MjEwNDQsImV4cCI6MTc3NDUyMTk0NH0.jFkdWTd3lD8KaVCdfc9Bd7l9em6LEAZ91qS3g8PdCuU
+GET {{baseUrl}}/profile
+Authorization: Bearer {{token}}
