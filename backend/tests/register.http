@@ -1,11 +1,11 @@
 @baseUrl = http://127.0.0.1:5000/api
 
-### 1. Đăng ký tài khoản mới
+### register
 POST {{baseUrl}}/register
 Content-Type: application/json
 
 {
-    "username": "user1",
-    "password": "pass1",
-    "email": "user1@gmail.com"
+    "username": "user5",
+    "password": "pass5",
+    "email": "user5@gmail.com"
 }

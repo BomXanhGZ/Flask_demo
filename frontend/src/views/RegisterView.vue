@@ -32,7 +32,7 @@
 <script setup>
 import { reactive, ref } from 'vue'
 import { useRouter } from 'vue-router'
-import { createUser } from '../api/userApi'
+import { register } from '../api/userApi'
 import AuthCard from '../components/AuthCard.vue'
 import FormInput from '../components/FormInput.vue'
 import AppButton from '../components/AppButton.vue'
@@ -48,7 +48,7 @@ const form = reactive({
 const handleRegister = async () => {
   loading.value = true
   try {
-    await createUser(form)
+    await register(form)
     alert('Registration successful! Please login.')
     router.push('/login')
   } catch (error) {

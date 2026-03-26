@@ -1,11 +1,10 @@
 @baseUrl = http://127.0.0.1:5000/api
 
-### 2. Đăng nhập để lấy Token (JWT)
-# @name login
+### login
 POST {{baseUrl}}/login
 Content-Type: application/json
 
 {
-    "username": "user1",
-    "password": "pass1"
+    "username": "user5",
+    "password": "pass5"
 }

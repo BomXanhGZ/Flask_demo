@@ -143,3 +143,98 @@
 2026-03-26 19:30:44,649 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 19:30:44] "POST /api/login HTTP/1.1" 200 -
 2026-03-26 19:31:14,192 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 19:31:14] "GET /api/profile HTTP/1.1" 200 -
 2026-03-26 19:33:48,922 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 19:33:48] "[33mGET /api/profile/undefined HTTP/1.1[0m" 404 -
+2026-03-26 22:10:44,892 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.schemas
+2026-03-26 22:10:44,893 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.tables
+2026-03-26 22:10:44,893 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.types
+2026-03-26 22:10:44,893 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.constraints
+2026-03-26 22:10:44,893 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.defaults
+2026-03-26 22:10:44,893 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.comments
+2026-03-26 22:10:44,975 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-26 22:10:44,976 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-26 22:10:44,977 - werkzeug - INFO -  * Restarting with stat
+2026-03-26 22:10:45,519 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.schemas
+2026-03-26 22:10:45,520 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.tables
+2026-03-26 22:10:45,520 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.types
+2026-03-26 22:10:45,520 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.constraints
+2026-03-26 22:10:45,520 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.defaults
+2026-03-26 22:10:45,520 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.comments
+2026-03-26 22:10:45,562 - werkzeug - WARNING -  * Debugger is active!
+2026-03-26 22:10:45,566 - werkzeug - INFO -  * Debugger PIN: 704-254-663
+2026-03-26 22:11:32,214 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 22:11:32] "[35m[1mPOST /api/register HTTP/1.1[0m" 201 -
+2026-03-26 22:12:30,388 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 22:12:30] "POST /api/login HTTP/1.1" 200 -
+2026-03-26 22:13:12,952 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 22:13:12] "GET /api/profile HTTP/1.1" 200 -
+2026-03-26 22:14:02,093 - werkzeug - INFO -  * Detected change in 'E:\\BomXanhG-Z_File\\BXGZ_Demo\\Flask_demo\\backend\\app\\schemas\\user_schema.py', reloading
+2026-03-26 22:14:02,235 - werkzeug - INFO -  * Restarting with stat
+2026-03-26 22:14:02,766 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.schemas
+2026-03-26 22:14:02,767 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.tables
+2026-03-26 22:14:02,767 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.types
+2026-03-26 22:14:02,767 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.constraints
+2026-03-26 22:14:02,767 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.defaults
+2026-03-26 22:14:02,767 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.comments
+2026-03-26 22:14:02,808 - werkzeug - WARNING -  * Debugger is active!
+2026-03-26 22:14:02,811 - werkzeug - INFO -  * Debugger PIN: 704-254-663
+2026-03-26 22:14:26,540 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 22:14:26] "GET /api/profile HTTP/1.1" 200 -
+2026-03-26 22:14:52,222 - werkzeug - INFO -  * Detected change in 'E:\\BomXanhG-Z_File\\BXGZ_Demo\\Flask_demo\\backend\\app\\schemas\\user_schema.py', reloading
+2026-03-26 22:14:52,312 - werkzeug - INFO -  * Restarting with stat
+2026-03-26 22:14:52,827 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.schemas
+2026-03-26 22:14:52,827 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.tables
+2026-03-26 22:14:52,827 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.types
+2026-03-26 22:14:52,828 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.constraints
+2026-03-26 22:14:52,828 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.defaults
+2026-03-26 22:14:52,828 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.comments
+2026-03-26 22:14:52,869 - werkzeug - WARNING -  * Debugger is active!
+2026-03-26 22:14:52,872 - werkzeug - INFO -  * Debugger PIN: 704-254-663
+2026-03-26 22:14:53,897 - werkzeug - INFO -  * Detected change in 'E:\\BomXanhG-Z_File\\BXGZ_Demo\\Flask_demo\\backend\\app\\schemas\\user_schema.py', reloading
+2026-03-26 22:14:53,989 - werkzeug - INFO -  * Restarting with stat
+2026-03-26 22:14:54,585 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.schemas
+2026-03-26 22:14:54,585 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.tables
+2026-03-26 22:14:54,585 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.types
+2026-03-26 22:14:54,585 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.constraints
+2026-03-26 22:14:54,586 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.defaults
+2026-03-26 22:14:54,586 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.comments
+2026-03-26 22:14:54,629 - werkzeug - WARNING -  * Debugger is active!
+2026-03-26 22:14:54,631 - werkzeug - INFO -  * Debugger PIN: 704-254-663
+2026-03-26 22:29:14,898 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 22:29:14] "POST /api/login HTTP/1.1" 200 -
+2026-03-26 22:30:45,759 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 22:30:45] "POST /api/login HTTP/1.1" 200 -
+2026-03-26 22:30:45,783 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 22:30:45] "[33mGET /api/profile/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc3NDUzMTg0NSwianRpIjoiZDRiMzcyMTktNGRhYi00OWFlLWIxMjQtZWIyMjJmODRkZjQxIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NzQ1MzE4NDUsImV4cCI6MTc3NDUzMjc0NX0.TFERR5NYpJpPqDBMEjerdcI6T9U8FDlWSOLJop36nqY HTTP/1.1[0m" 404 -
+2026-03-26 22:31:08,701 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.schemas
+2026-03-26 22:31:08,701 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.tables
+2026-03-26 22:31:08,702 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.types
+2026-03-26 22:31:08,702 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.constraints
+2026-03-26 22:31:08,702 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.defaults
+2026-03-26 22:31:08,702 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.comments
+2026-03-26 22:31:08,751 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-26 22:31:08,751 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-26 22:31:08,752 - werkzeug - INFO -  * Restarting with stat
+2026-03-26 22:31:09,256 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.schemas
+2026-03-26 22:31:09,257 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.tables
+2026-03-26 22:31:09,257 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.types
+2026-03-26 22:31:09,257 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.constraints
+2026-03-26 22:31:09,257 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.defaults
+2026-03-26 22:31:09,257 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.comments
+2026-03-26 22:31:09,298 - werkzeug - WARNING -  * Debugger is active!
+2026-03-26 22:31:09,301 - werkzeug - INFO -  * Debugger PIN: 704-254-663
+2026-03-26 22:31:34,183 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 22:31:34] "[35m[1mPOST /api/register HTTP/1.1[0m" 201 -
+2026-03-26 22:31:47,596 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 22:31:47] "POST /api/login HTTP/1.1" 200 -
+2026-03-26 22:31:47,615 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 22:31:47] "[33mGET /api/profile/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc3NDUzMTkwNywianRpIjoiZTUzYzM3OTMtOWE5NS00ZTAwLThiM2QtN2Y2OWY5MTc0NzNlIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjYiLCJuYmYiOjE3NzQ1MzE5MDcsImV4cCI6MTc3NDUzMjgwN30.arIWFrs6O1chhH6RJdD86CCUPGmFDQVPNo98BttkHkg HTTP/1.1[0m" 404 -
+2026-03-26 22:32:08,514 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 22:32:08] "[33mGET /api/profile/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc3NDUzMTkwNywianRpIjoiZTUzYzM3OTMtOWE5NS00ZTAwLThiM2QtN2Y2OWY5MTc0NzNlIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjYiLCJuYmYiOjE3NzQ1MzE5MDcsImV4cCI6MTc3NDUzMjgwN30.arIWFrs6O1chhH6RJdD86CCUPGmFDQVPNo98BttkHkg HTTP/1.1[0m" 404 -
+2026-03-26 22:37:24,266 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 22:37:24] "[33mGET /api/profile/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc3NDUzMTkwNywianRpIjoiZTUzYzM3OTMtOWE5NS00ZTAwLThiM2QtN2Y2OWY5MTc0NzNlIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjYiLCJuYmYiOjE3NzQ1MzE5MDcsImV4cCI6MTc3NDUzMjgwN30.arIWFrs6O1chhH6RJdD86CCUPGmFDQVPNo98BttkHkg HTTP/1.1[0m" 404 -
+2026-03-26 22:37:26,516 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 22:37:26] "[33mGET /api/profile/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc3NDUzMTkwNywianRpIjoiZTUzYzM3OTMtOWE5NS00ZTAwLThiM2QtN2Y2OWY5MTc0NzNlIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjYiLCJuYmYiOjE3NzQ1MzE5MDcsImV4cCI6MTc3NDUzMjgwN30.arIWFrs6O1chhH6RJdD86CCUPGmFDQVPNo98BttkHkg HTTP/1.1[0m" 404 -
+2026-03-26 22:38:29,078 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 22:38:29] "GET /api/profile HTTP/1.1" 200 -
+2026-03-26 22:38:50,908 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 22:38:50] "POST /api/login HTTP/1.1" 200 -
+2026-03-26 22:38:51,450 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 22:38:51] "GET /api/profile HTTP/1.1" 200 -
+2026-03-26 22:39:31,596 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 22:39:31] "POST /api/login HTTP/1.1" 200 -
+2026-03-26 22:39:32,111 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 22:39:32] "GET /api/profile HTTP/1.1" 200 -
+2026-03-26 22:39:38,318 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 22:39:38] "GET /api/profile HTTP/1.1" 200 -
+2026-03-26 22:39:38,867 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 22:39:38] "GET /api/profile HTTP/1.1" 200 -
+2026-03-26 22:39:39,464 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 22:39:39] "[33mGET /api/profile/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc3NDUzMjM3MSwianRpIjoiNGMxMDc1MDItOTNmNi00NDJiLWE1NjQtY2U4MmZjNTdmZjU2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NzQ1MzIzNzEsImV4cCI6MTc3NDUzMzI3MX0.8ZPOVSX8aiUieJTKwtcYpHG8MaxBdZ6DXmmmkhWZB_c HTTP/1.1[0m" 404 -
+2026-03-26 22:39:39,469 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 22:39:39] "[33mGET /api/profile/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc3NDUzMjM3MSwianRpIjoiNGMxMDc1MDItOTNmNi00NDJiLWE1NjQtY2U4MmZjNTdmZjU2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NzQ1MzIzNzEsImV4cCI6MTc3NDUzMzI3MX0.8ZPOVSX8aiUieJTKwtcYpHG8MaxBdZ6DXmmmkhWZB_c HTTP/1.1[0m" 404 -
+2026-03-26 22:39:42,099 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 22:39:42] "[33mGET /api/profile/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc3NDUzMjM3MSwianRpIjoiNGMxMDc1MDItOTNmNi00NDJiLWE1NjQtY2U4MmZjNTdmZjU2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NzQ1MzIzNzEsImV4cCI6MTc3NDUzMzI3MX0.8ZPOVSX8aiUieJTKwtcYpHG8MaxBdZ6DXmmmkhWZB_c HTTP/1.1[0m" 404 -
+2026-03-26 22:39:42,103 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 22:39:42] "[33mGET /api/profile/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc3NDUzMjM3MSwianRpIjoiNGMxMDc1MDItOTNmNi00NDJiLWE1NjQtY2U4MmZjNTdmZjU2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NzQ1MzIzNzEsImV4cCI6MTc3NDUzMzI3MX0.8ZPOVSX8aiUieJTKwtcYpHG8MaxBdZ6DXmmmkhWZB_c HTTP/1.1[0m" 404 -
+2026-03-26 22:39:50,459 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 22:39:50] "POST /api/login HTTP/1.1" 200 -
+2026-03-26 22:39:50,479 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 22:39:50] "[33mGET /api/profile/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc3NDUzMjM5MCwianRpIjoiYzYyNTQ3NDQtMTQ0Ni00Mzg0LTk5YTgtZmY2NjA5MDQ4MGUwIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjUiLCJuYmYiOjE3NzQ1MzIzOTAsImV4cCI6MTc3NDUzMzI5MH0.KyLxemfy0SNV-LySwzNJCFUNDe3sH7kOrGrEm-i2Eis HTTP/1.1[0m" 404 -
+2026-03-26 22:39:56,814 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 22:39:56] "GET /api/profile HTTP/1.1" 200 -
+2026-03-26 22:39:57,332 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 22:39:57] "GET /api/profile HTTP/1.1" 200 -
+2026-03-26 22:39:57,920 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 22:39:57] "GET /api/profile HTTP/1.1" 200 -

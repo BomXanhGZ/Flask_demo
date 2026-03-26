@@ -37,7 +37,7 @@ onMounted(async () => {
       const basicInfo = JSON.parse(savedUser)
       // basicInfo usually contains {id, username}
       // We fetch full data from backend to get email etc.
-      const fullProfile = await getProfile(basicInfo.id)
+      const fullProfile = await getProfile(basicInfo.access_token)
       user.value = fullProfile
     } catch (error) {
       console.error('Failed to fetch profile:', error)
