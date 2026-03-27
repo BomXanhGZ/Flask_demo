@@ -2,10 +2,12 @@ from flask import Blueprint, jsonify, request
 from flask_jwt_extended import jwt_required, get_jwt_identity
 from ..services import user_service
 
+# Create user route group
 user_bp = Blueprint('user', __name__)
 
 
 @user_bp.route('/profile', methods=['GET'])
+# Protected route - needs a valid token
 @jwt_required()
 def get_profile():
     user_id = get_jwt_identity()
@@ -16,6 +18,7 @@ def get_profile():
 
 
 @user_bp.route('/register', methods=['POST'])
+# Register new user
 def add_user():
     data = request.get_json()
     new_user = user_service.create_user(data)
@@ -23,6 +26,7 @@ def add_user():
 
 
 @user_bp.route('/login', methods=['POST'])
+# User login
 def login():
     data = request.get_json()
     result, status = user_service.authenticate_user(

@@ -1,13 +1,13 @@
 import logging
 
-# --- SERVER CONFIG ---
+# --- Server Configuration ---
 PORT = 5000
 HOST = "127.0.0.1"
 DEBUG = True
 SECRET_KEY = "your-secret-key-here"
 JWT_SECRET_KEY = "your-jwt-secret-key-here"
 
-# --- DATABASE CONFIG ---
+# --- Database Configuration ---
 DB_NAME = "demo_2wnx"
 DB_USER = "bomxanhgz"
 DB_PASSWORD = "ECQ1zkugQRHyxNkWqRXxDWpuWGUnoYPN"
@@ -16,7 +16,7 @@ DB_PORT = "5432"
 SQLALCHEMY_DATABASE_URI = f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
 SQLALCHEMY_TRACK_MODIFICATIONS = False
 
-# --- LOGGING CONFIG ---
+# --- Logging Configuration ---
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -27,5 +27,5 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# --- PREFIX REGISTER ---
+# --- API Routes ---
 API_PREFIX = "/api"

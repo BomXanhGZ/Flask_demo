@@ -2,6 +2,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from ..extensions import db
 
 
+# User database model
 class User(db.Model):
     __tablename__ = 'user'
 
@@ -10,9 +11,11 @@ class User(db.Model):
     email = db.Column(db.String(120), unique=True, nullable=False)
     password_hash = db.Column(db.Text)
 
+    # Encrypt password
     def set_password(self, password):
         self.password_hash = generate_password_hash(password)
 
+    # Check if login password is correct
     def check_password(self, password):
         return check_password_hash(self.password_hash, password)
 

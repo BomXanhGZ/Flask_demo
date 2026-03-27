@@ -238,3 +238,154 @@
 2026-03-26 22:39:56,814 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 22:39:56] "GET /api/profile HTTP/1.1" 200 -
 2026-03-26 22:39:57,332 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 22:39:57] "GET /api/profile HTTP/1.1" 200 -
 2026-03-26 22:39:57,920 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 22:39:57] "GET /api/profile HTTP/1.1" 200 -
+2026-03-27 11:07:23,046 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.schemas
+2026-03-27 11:07:23,046 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.tables
+2026-03-27 11:07:23,047 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.types
+2026-03-27 11:07:23,047 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.constraints
+2026-03-27 11:07:23,047 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.defaults
+2026-03-27 11:07:23,048 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.comments
+2026-03-27 11:07:23,122 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-27 11:07:23,122 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-27 11:07:23,124 - werkzeug - INFO -  * Restarting with stat
+2026-03-27 11:07:23,624 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.schemas
+2026-03-27 11:07:23,625 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.tables
+2026-03-27 11:07:23,625 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.types
+2026-03-27 11:07:23,625 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.constraints
+2026-03-27 11:07:23,626 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.defaults
+2026-03-27 11:07:23,626 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.comments
+2026-03-27 11:07:23,668 - werkzeug - WARNING -  * Debugger is active!
+2026-03-27 11:07:23,675 - werkzeug - INFO -  * Debugger PIN: 704-254-663
+2026-03-27 11:07:57,842 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2026 11:07:57] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2026-03-27 11:08:17,297 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2026 11:08:17] "POST /api/login HTTP/1.1" 200 -
+2026-03-27 11:08:17,691 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2026 11:08:17] "GET /api/profile HTTP/1.1" 200 -
+2026-03-27 11:39:59,568 - werkzeug - INFO -  * Detected change in 'E:\\BomXanhG-Z_File\\BXGZ_Demo\\Flask_demo\\backend\\app\\manage.py', reloading
+2026-03-27 11:39:59,682 - werkzeug - INFO -  * Restarting with stat
+2026-03-27 11:40:00,315 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.schemas
+2026-03-27 11:40:00,315 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.tables
+2026-03-27 11:40:00,315 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.types
+2026-03-27 11:40:00,316 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.constraints
+2026-03-27 11:40:00,316 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.defaults
+2026-03-27 11:40:00,316 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.comments
+2026-03-27 11:40:00,360 - werkzeug - WARNING -  * Debugger is active!
+2026-03-27 11:40:00,363 - werkzeug - INFO -  * Debugger PIN: 704-254-663
+2026-03-27 11:40:07,437 - werkzeug - INFO -  * Detected change in 'E:\\BomXanhG-Z_File\\BXGZ_Demo\\Flask_demo\\backend\\app\\main.py', reloading
+2026-03-27 11:40:07,533 - werkzeug - INFO -  * Restarting with stat
+2026-03-27 11:40:08,080 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.schemas
+2026-03-27 11:40:08,080 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.tables
+2026-03-27 11:40:08,080 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.types
+2026-03-27 11:40:08,080 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.constraints
+2026-03-27 11:40:08,080 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.defaults
+2026-03-27 11:40:08,080 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.comments
+2026-03-27 11:40:08,125 - werkzeug - WARNING -  * Debugger is active!
+2026-03-27 11:40:08,128 - werkzeug - INFO -  * Debugger PIN: 704-254-663
+2026-03-27 11:57:00,664 - werkzeug - INFO -  * Detected change in 'E:\\BomXanhG-Z_File\\BXGZ_Demo\\Flask_demo\\backend\\app\\models\\user.py', reloading
+2026-03-27 11:57:00,748 - werkzeug - INFO -  * Restarting with stat
+2026-03-27 11:57:01,305 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.schemas
+2026-03-27 11:57:01,306 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.tables
+2026-03-27 11:57:01,306 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.types
+2026-03-27 11:57:01,306 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.constraints
+2026-03-27 11:57:01,307 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.defaults
+2026-03-27 11:57:01,307 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.comments
+2026-03-27 11:57:01,356 - werkzeug - WARNING -  * Debugger is active!
+2026-03-27 11:57:01,361 - werkzeug - INFO -  * Debugger PIN: 704-254-663
+2026-03-27 11:57:27,592 - werkzeug - INFO -  * Detected change in 'E:\\BomXanhG-Z_File\\BXGZ_Demo\\Flask_demo\\backend\\app\\main.py', reloading
+2026-03-27 11:57:27,707 - werkzeug - INFO -  * Restarting with stat
+2026-03-27 11:57:28,249 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.schemas
+2026-03-27 11:57:28,249 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.tables
+2026-03-27 11:57:28,249 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.types
+2026-03-27 11:57:28,249 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.constraints
+2026-03-27 11:57:28,250 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.defaults
+2026-03-27 11:57:28,250 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.comments
+2026-03-27 11:57:28,297 - werkzeug - WARNING -  * Debugger is active!
+2026-03-27 11:57:28,300 - werkzeug - INFO -  * Debugger PIN: 704-254-663
+2026-03-27 11:59:02,070 - werkzeug - INFO -  * Detected change in 'E:\\BomXanhG-Z_File\\BXGZ_Demo\\Flask_demo\\backend\\app\\main.py', reloading
+2026-03-27 11:59:02,152 - werkzeug - INFO -  * Restarting with stat
+2026-03-27 11:59:02,757 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.schemas
+2026-03-27 11:59:02,758 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.tables
+2026-03-27 11:59:02,758 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.types
+2026-03-27 11:59:02,758 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.constraints
+2026-03-27 11:59:02,758 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.defaults
+2026-03-27 11:59:02,758 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.comments
+2026-03-27 11:59:02,803 - werkzeug - WARNING -  * Debugger is active!
+2026-03-27 11:59:02,805 - werkzeug - INFO -  * Debugger PIN: 704-254-663
+2026-03-27 12:02:44,614 - werkzeug - INFO -  * Detected change in 'E:\\BomXanhG-Z_File\\BXGZ_Demo\\Flask_demo\\backend\\app\\settings.py', reloading
+2026-03-27 12:02:44,733 - werkzeug - INFO -  * Restarting with stat
+2026-03-27 12:02:45,292 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.schemas
+2026-03-27 12:02:45,292 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.tables
+2026-03-27 12:02:45,293 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.types
+2026-03-27 12:02:45,293 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.constraints
+2026-03-27 12:02:45,293 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.defaults
+2026-03-27 12:02:45,293 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.comments
+2026-03-27 12:02:45,335 - werkzeug - WARNING -  * Debugger is active!
+2026-03-27 12:02:45,338 - werkzeug - INFO -  * Debugger PIN: 704-254-663
+2026-03-27 12:02:46,361 - werkzeug - INFO -  * Detected change in 'E:\\BomXanhG-Z_File\\BXGZ_Demo\\Flask_demo\\backend\\app\\main.py', reloading
+2026-03-27 12:02:46,456 - werkzeug - INFO -  * Restarting with stat
+2026-03-27 12:02:47,022 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.schemas
+2026-03-27 12:02:47,023 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.tables
+2026-03-27 12:02:47,023 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.types
+2026-03-27 12:02:47,023 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.constraints
+2026-03-27 12:02:47,023 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.defaults
+2026-03-27 12:02:47,024 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.comments
+2026-03-27 12:02:47,069 - werkzeug - WARNING -  * Debugger is active!
+2026-03-27 12:02:47,072 - werkzeug - INFO -  * Debugger PIN: 704-254-663
+2026-03-27 12:06:08,842 - werkzeug - INFO -  * Detected change in 'E:\\BomXanhG-Z_File\\BXGZ_Demo\\Flask_demo\\backend\\app\\main.py', reloading
+2026-03-27 12:06:08,940 - werkzeug - INFO -  * Restarting with stat
+2026-03-27 12:06:09,499 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.schemas
+2026-03-27 12:06:09,500 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.tables
+2026-03-27 12:06:09,500 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.types
+2026-03-27 12:06:09,500 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.constraints
+2026-03-27 12:06:09,500 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.defaults
+2026-03-27 12:06:09,500 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.comments
+2026-03-27 12:06:09,545 - werkzeug - WARNING -  * Debugger is active!
+2026-03-27 12:06:09,548 - werkzeug - INFO -  * Debugger PIN: 704-254-663
+2026-03-27 12:20:46,207 - werkzeug - INFO -  * Detected change in 'E:\\BomXanhG-Z_File\\BXGZ_Demo\\Flask_demo\\backend\\app\\main.py', reloading
+2026-03-27 12:20:46,320 - werkzeug - INFO -  * Restarting with stat
+2026-03-27 12:20:46,870 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.schemas
+2026-03-27 12:20:46,871 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.tables
+2026-03-27 12:20:46,871 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.types
+2026-03-27 12:20:46,871 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.constraints
+2026-03-27 12:20:46,872 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.defaults
+2026-03-27 12:20:46,872 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.comments
+2026-03-27 12:20:46,917 - werkzeug - WARNING -  * Debugger is active!
+2026-03-27 12:20:46,920 - werkzeug - INFO -  * Debugger PIN: 704-254-663
+2026-03-27 12:27:20,270 - werkzeug - INFO -  * Detected change in 'E:\\BomXanhG-Z_File\\BXGZ_Demo\\Flask_demo\\backend\\app\\main.py', reloading
+2026-03-27 12:27:20,365 - werkzeug - INFO -  * Restarting with stat
+2026-03-27 12:27:20,944 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.schemas
+2026-03-27 12:27:20,944 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.tables
+2026-03-27 12:27:20,945 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.types
+2026-03-27 12:27:20,945 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.constraints
+2026-03-27 12:27:20,945 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.defaults
+2026-03-27 12:27:20,945 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.comments
+2026-03-27 12:27:20,991 - werkzeug - WARNING -  * Debugger is active!
+2026-03-27 12:27:20,994 - werkzeug - INFO -  * Debugger PIN: 704-254-663
+2026-03-27 12:28:58,055 - werkzeug - INFO -  * Detected change in 'E:\\BomXanhG-Z_File\\BXGZ_Demo\\Flask_demo\\backend\\app\\settings.py', reloading
+2026-03-27 12:28:58,181 - werkzeug - INFO -  * Restarting with stat
+2026-03-27 12:28:58,756 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.schemas
+2026-03-27 12:28:58,757 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.tables
+2026-03-27 12:28:58,757 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.types
+2026-03-27 12:28:58,757 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.constraints
+2026-03-27 12:28:58,758 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.defaults
+2026-03-27 12:28:58,758 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.comments
+2026-03-27 12:28:58,804 - werkzeug - WARNING -  * Debugger is active!
+2026-03-27 12:28:58,807 - werkzeug - INFO -  * Debugger PIN: 704-254-663
+2026-03-27 12:32:56,989 - werkzeug - INFO -  * Detected change in 'E:\\BomXanhG-Z_File\\BXGZ_Demo\\Flask_demo\\backend\\app\\settings.py', reloading
+2026-03-27 12:32:57,098 - werkzeug - INFO -  * Restarting with stat
+2026-03-27 12:32:57,639 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.schemas
+2026-03-27 12:32:57,639 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.tables
+2026-03-27 12:32:57,640 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.types
+2026-03-27 12:32:57,640 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.constraints
+2026-03-27 12:32:57,640 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.defaults
+2026-03-27 12:32:57,640 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.comments
+2026-03-27 12:32:57,682 - werkzeug - WARNING -  * Debugger is active!
+2026-03-27 12:32:57,685 - werkzeug - INFO -  * Debugger PIN: 704-254-663
+2026-03-27 12:35:49,119 - werkzeug - INFO -  * Detected change in 'E:\\BomXanhG-Z_File\\BXGZ_Demo\\Flask_demo\\backend\\app\\main.py', reloading
+2026-03-27 12:35:49,203 - werkzeug - INFO -  * Restarting with stat
+2026-03-27 12:35:49,754 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.schemas
+2026-03-27 12:35:49,754 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.tables
+2026-03-27 12:35:49,754 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.types
+2026-03-27 12:35:49,754 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.constraints
+2026-03-27 12:35:49,755 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.defaults
+2026-03-27 12:35:49,755 - alembic.runtime.plugins - INFO - setup plugin alembic.autogenerate.comments
+2026-03-27 12:35:49,806 - werkzeug - WARNING -  * Debugger is active!
+2026-03-27 12:35:49,808 - werkzeug - INFO -  * Debugger PIN: 704-254-663

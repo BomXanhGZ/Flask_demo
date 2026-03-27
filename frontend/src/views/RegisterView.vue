@@ -3,20 +3,20 @@
     <form @submit.prevent="handleRegister">
       <FormInput 
         label="Username" 
-        v-model="form.username" 
+        v-model:input-value="form.username" 
         placeholder="Enter your username" 
         required 
       />
       <FormInput 
         label="Email" 
-        v-model="form.email" 
+        v-model:input-value="form.email" 
         type="email" 
         placeholder="Enter your email" 
         required 
       />
       <FormInput 
         label="Password" 
-        v-model="form.password" 
+        v-model:input-value="form.password" 
         type="password" 
         placeholder="Choose a password" 
         required 

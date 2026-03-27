@@ -30,18 +30,18 @@ const router = useRouter()
 const user = ref(null)
 const loading = ref(true)
 
+// Load user profile when component is mounted
 onMounted(async () => {
   const savedUser = localStorage.getItem('user')
   if (savedUser) {
     try {
       const basicInfo = JSON.parse(savedUser)
-      // basicInfo usually contains {id, username}
-      // We fetch full data from backend to get email etc.
+      // Get full profile data from API
       const fullProfile = await getProfile(basicInfo.access_token)
       user.value = fullProfile
     } catch (error) {
       console.error('Failed to fetch profile:', error)
-      // Fallback to localStorage if API fails
+      // Fallback to local data if API request fails
       user.value = JSON.parse(savedUser)
     }
   }
@@ -49,6 +49,7 @@ onMounted(async () => {
 })
 
 const handleLogout = () => {
+  // Clear session and redirect to login page
   localStorage.removeItem('user')
   router.push('/login')
 }

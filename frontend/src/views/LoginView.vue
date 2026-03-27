@@ -3,13 +3,13 @@
     <form @submit.prevent="handleLogin">
       <FormInput 
         label="Username" 
-        v-model="form.username" 
+        v-model:input-value="form.username" 
         placeholder="Enter your username" 
         required 
       />
       <FormInput 
         label="Password" 
-        v-model="form.password" 
+        v-model:input-value="form.password" 
         type="password" 
         placeholder="Enter your password" 
         required 

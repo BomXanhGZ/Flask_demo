@@ -4,6 +4,7 @@ from ..schemas.user_schema import user_schema, users_schema
 from ..extensions import db
 
 
+# Find user by ID
 def get_profile(user_id):
     user = User.query.get(user_id)
     if not user:
@@ -11,6 +12,7 @@ def get_profile(user_id):
     return user_schema.dump(user)
 
 
+# Save new user to DB
 def create_user(data):
     # Check if user already exists
     if User.query.filter_by(username=data['username']).first():
@@ -27,6 +29,7 @@ def create_user(data):
     return user_schema.dump(new_user)
 
 
+# Verify user and generate JWT token
 def authenticate_user(username, password):
     user = User.query.filter_by(username=username).first()
     if user and user.check_password(password):

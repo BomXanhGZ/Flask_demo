@@ -5,8 +5,8 @@
       :type="type" 
       :placeholder="placeholder" 
       :required="required"
-      :value="modelValue"
-      @input="$emit('update:modelValue', $event.target.value)"
+      :value="inputValue"
+      v-on:input="$emit('update:inputValue', $event.target.value)"
     />
   </div>
 </template>
@@ -17,9 +17,9 @@ defineProps({
   type: { type: String, default: 'text' },
   placeholder: String,
   required: Boolean,
-  modelValue: String
+  inputValue: String
 })
-defineEmits(['update:modelValue'])
+defineEmits(['update:inputValue'])
 </script>
 
 <style scoped>

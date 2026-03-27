@@ -1,22 +1,22 @@
-# 🚀 Hướng dẫn thao tác thao tác với Ứng dụng
+# 🚀 Application Setup Guide
 
 ## 📌 Backend (Flask)
 
-### 1. Cài đặt & Khởi chạy
+### 1. Setup & Run
 
-Cài đặt thư viện (Sử dụng Virtual Environment):
+Install dependencies using a Virtual Environment:
 ```bash
 cd backend
 
-# Tạo virtual environment
+# Create virtual environment
 python -m venv venv
 
-# Kích hoạt (Windows)
+# Activate on Windows
 # venv\Scripts\activate
-# Kích hoạt (Mac/Linux)
+# Activate on Mac/Linux
 source venv/bin/activate
 
-# Cài đặt thư viện
+# Install requirements
 pip install -r requirements.txt
 ```
 
