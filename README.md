@@ -12,9 +12,7 @@ cd backend
 python -m venv venv
 
 # Activate on Windows
-# venv\Scripts\activate
-# Activate on Mac/Linux
-source venv/bin/activate
+source venv/Scripts/activate
 
 # Install requirements
 pip install -r requirements.txt

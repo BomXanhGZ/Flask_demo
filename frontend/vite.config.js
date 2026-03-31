@@ -3,8 +3,8 @@ import vue from '@vitejs/plugin-vue'
 
 
 // --- GLOBAL CONFIGURATION VARIABLES ---
-const PORT = 5173
 const API_PREFIX = '/api'
+const PORT = 5173
 const API_TARGET = 'http://localhost:5000'
 
 export default defineConfig({

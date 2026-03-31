@@ -1,31 +1,35 @@
-import logging
+import os
+from datetime import timedelta
+from dotenv import load_dotenv
+
+# Load .env file
+load_dotenv()
 
 # --- Server Configuration ---
-PORT = 5000
-HOST = "127.0.0.1"
-DEBUG = True
-SECRET_KEY = "your-secret-key-here"
-JWT_SECRET_KEY = "your-jwt-secret-key-here"
+PORT = int(os.getenv("PORT"))
+HOST = os.getenv("HOST")
+DEBUG = os.getenv("DEBUG") == "True"
 
 # --- Database Configuration ---
-DB_NAME = "demo_2wnx"
-DB_USER = "bomxanhgz"
-DB_PASSWORD = "ECQ1zkugQRHyxNkWqRXxDWpuWGUnoYPN"
-DB_HOST = "dpg-d72au55m5p6s73cu4d6g-a.oregon-postgres.render.com"
-DB_PORT = "5432"
+DB_HOST = os.getenv("DB_HOST")
+DB_PORT = os.getenv("DB_PORT")
+DB_NAME = os.getenv("DB_NAME")
+DB_USER = os.getenv("DB_USER")
+DB_PASSWORD = os.getenv("DB_PASSWORD")
 SQLALCHEMY_DATABASE_URI = f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
 SQLALCHEMY_TRACK_MODIFICATIONS = False
 
-# --- Logging Configuration ---
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.StreamHandler(),
-        logging.FileHandler("app.log")
-    ]
-)
-logger = logging.getLogger(__name__)
-
 # --- API Routes ---
 API_PREFIX = "/api"
+
+# --- JWT Configuration ---
+JWT_ALGORITHM = "HS256"
+JWT_SECRET_KEY = os.getenv("JWT_SECRET_KEY")
+JWT_ACCESS_TOKEN_EXPIRES = timedelta(
+    minutes=int(os.getenv("JWT_ACCESS_TOKEN_EXPIRES")))
+
+# --- Google OAuth Configuration ---
+GOOGLE_CLIENT_ID = os.getenv("GOOGLE_CLIENT_ID")
+GOOGLE_CLIENT_SECRET = os.getenv("GOOGLE_CLIENT_SECRET")
+GOOGLE_TOKEN_URL = "https://oauth2.googleapis.com/token"
+GOOGLE_REDIRECT_URI = os.getenv("GOOGLE_REDIRECT_URI")

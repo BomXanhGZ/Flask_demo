@@ -18,7 +18,14 @@
         label="Password" 
         v-model:input-value="form.password" 
         type="password" 
-        placeholder="Choose a password" 
+        placeholder="Enter password" 
+        required 
+      />
+      <FormInput 
+        label="Confirm Password" 
+        v-model:input-value="form.confirmPassword" 
+        type="password" 
+        placeholder="Confirm password" 
         required 
       />
       <AppButton :loading="loading">Register</AppButton>
@@ -42,11 +49,19 @@ const loading = ref(false)
 const form = reactive({
   username: '',
   email: '',
-  password: ''
+  password: '',
+  confirmPassword: ''
 })
 
 const handleRegister = async () => {
   loading.value = true
+
+  if (form.password !== form.confirmPassword) {
+    alert('Passwords do not match')
+    loading.value = false
+    return
+  }
+
   try {
     await register(form)
     alert('Registration successful! Please login.')

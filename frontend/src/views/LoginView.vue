@@ -1,5 +1,9 @@
 <template>
+
+  <!-- Default Register -->
   <AuthCard title="Welcome Back">
+
+    <!-- login form -->
     <form @submit.prevent="handleLogin">
       <FormInput 
         label="Username" 
@@ -16,6 +20,11 @@
       />
       <AppButton :loading="loading">Login</AppButton>
     </form>
+
+    <!-- login with google button-->
+    <AppButton :loading="googleLoading" @click="handleGoogleLogin">Login with Google</AppButton>
+
+    <!-- register link -->
     <p class="auth-link">
       Don't have an account? <router-link to="/register">Register here</router-link>
     </p>
@@ -29,9 +38,11 @@ import { login } from '../api/userApi'
 import AuthCard from '../components/AuthCard.vue'
 import FormInput from '../components/FormInput.vue'
 import AppButton from '../components/AppButton.vue'
+import { googleLogin } from '../api/googleAPI'
 
 const router = useRouter()
 const loading = ref(false)
+const googleLoading = ref(false)
 const form = reactive({
   username: '',
   password: ''
@@ -49,6 +60,11 @@ const handleLogin = async () => {
     loading.value = false
   }
 }
+
+const handleGoogleLogin = () => {
+  // googleLoading.value = true
+  googleLogin()
+}
 </script>
 
 <style scoped>
@@ -56,6 +72,9 @@ const handleLogin = async () => {
   margin-top: 20px;
   text-align: center;
   font-size: 14px;
+}
+.custom-btn {
+  margin-top: 12px;
 }
 .auth-link a {
   color: #42b983;
