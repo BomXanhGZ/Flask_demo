@@ -4,16 +4,15 @@ import vue from '@vitejs/plugin-vue'
 
 // --- GLOBAL CONFIGURATION VARIABLES ---
 const API_PREFIX = '/api'
-const PORT = 5173
-const API_TARGET = 'http://localhost:5000'
+const { VITE_PORT, VITE_API_TARGET } = import.meta.env
 
 export default defineConfig({
   plugins: [vue()],
   server: {
-    port: PORT,
+    port: VITE_PORT,
     proxy: {
       [API_PREFIX]: {
-        target: API_TARGET,
+        target: VITE_API_TARGET,
       },
     },
   },
